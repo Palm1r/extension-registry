@@ -1,0 +1,101 @@
+{
+    "$schema": "../../schema/extension.schema.json",
+    "info": {
+        "id": "qodeassist",
+        "vendor_id": "petrmironychev",
+        "display_name": "QodeAssist",
+        "display_vendor": "Petr Mironychev",
+        "license": "open-source",
+        "tags": [
+            "AI",
+            "Code Completion",
+            "AI Chat",
+            "AI Assistant",
+            "Claude",
+            "OpenAI",
+            "llama.cpp",
+            "Ollama",
+            "LM Studio"
+        ]
+    },
+    "latest": "0.9.16",
+    "versions": {
+        "0.9.16": {
+            "sources": [
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.16/QodeAssist-v0.9.16-QtC19.0.2-Windows-x64.7z",
+                    "sha256": "b3d3efe45036644ff7e2c5ae13ad7710fbee6302fd1b30af217c0b84814f6e07",
+                    "platform": {
+                        "name": "Windows",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.16/QodeAssist-v0.9.16-QtC19.0.2-Linux-x64.7z",
+                    "sha256": "e5e4cc27c570de8512fd533a39197cb42649fc8528d50cb15353e10d4da26b22",
+                    "platform": {
+                        "name": "Linux",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.16/QodeAssist-v0.9.16-QtC19.0.2-macOS-universal.7z",
+                    "sha256": "c4ebb60d85498abd754269bd064569556fcfabaa94b57d9207deb1bf12f960b5",
+                    "platform": {
+                        "name": "macOS",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.16/QodeAssist-v0.9.16-QtC19.0.2-macOS-universal.7z",
+                    "sha256": "c4ebb60d85498abd754269bd064569556fcfabaa94b57d9207deb1bf12f960b5",
+                    "platform": {
+                        "name": "macOS",
+                        "architecture": "arm64"
+                    }
+                }
+            ],
+            "metadata": {
+                "Id": "qodeassist",
+                "Name": "QodeAssist",
+                "Version": "0.9.16",
+                "CompatVersion": "19.0.2",
+                "Vendor": "Petr Mironychev",
+                "VendorId": "petrmironychev",
+                "Copyright": "(C) 2026 Petr Mironychev, (C) 2026 The Qt Company Ltd",
+                "License": "GPLv3",
+                "Category": "AI Assistant",
+                "Description": "QodeAssist is an AI-powered coding assistant for Qt Creator. It provides intelligent code completion and suggestions for your code. Prerequisites: Requires one of the supported LLM providers installed (e.g., Ollama or LM Studio) and a compatible large language model downloaded for your chosen provider (e.g., CodeLlama, StarCoder2).",
+                "Url": "https://github.com/Palm1r/QodeAssist",
+                "DocumentationUrl": "https://github.com/Palm1r/QodeAssist",
+                "Dependencies": [
+                    {
+                        "Id": "Core",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "LanguageClient",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "TextEditor",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "ProjectExplorer",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "CppEditor",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    }
+                ]
+            }
+        }
+    }
+}
