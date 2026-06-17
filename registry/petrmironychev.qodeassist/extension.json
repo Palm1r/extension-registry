@@ -18,7 +18,7 @@
             "LM Studio"
         ]
     },
-    "latest": "0.9.20",
+    "latest": "0.9.21",
     "versions": {
         "0.9.16": {
             "sources": [
@@ -367,6 +367,83 @@
                 "Id": "qodeassist",
                 "Name": "QodeAssist",
                 "Version": "0.9.20",
+                "CompatVersion": "19.0.2",
+                "Vendor": "Petr Mironychev",
+                "VendorId": "petrmironychev",
+                "Copyright": "(C) 2026 Petr Mironychev, (C) 2026 The Qt Company Ltd",
+                "License": "GPLv3",
+                "Category": "AI Assistant",
+                "Description": "QodeAssist is an AI-powered coding assistant for Qt Creator. It provides intelligent code completion and suggestions for your code. Prerequisites: Requires one of the supported LLM providers installed (e.g., Ollama or LM Studio) and a compatible large language model downloaded for your chosen provider (e.g., CodeLlama, StarCoder2).",
+                "Url": "https://github.com/Palm1r/QodeAssist",
+                "DocumentationUrl": "https://github.com/Palm1r/QodeAssist",
+                "Dependencies": [
+                    {
+                        "Id": "Core",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "LanguageClient",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "TextEditor",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "ProjectExplorer",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    },
+                    {
+                        "Id": "CppEditor",
+                        "Version": "19.0.2",
+                        "Type": "Required"
+                    }
+                ]
+            }
+        },
+        "0.9.21": {
+            "sources": [
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.21/QodeAssist-v0.9.21-QtC19.0.2-Windows-x64.7z",
+                    "sha256": "fefcafa957f139f7c0c4dd6cff16f86dce2df0d3d1c5974f8b49d6f21053e233",
+                    "platform": {
+                        "name": "Windows",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.21/QodeAssist-v0.9.21-QtC19.0.2-Linux-x64.7z",
+                    "sha256": "2d60b77985de0cef0a8118dd86ba6f4a13d82f59ec329fe55737db15c5fe1fb9",
+                    "platform": {
+                        "name": "Linux",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.21/QodeAssist-v0.9.21-QtC19.0.2-macOS-universal.7z",
+                    "sha256": "90c3b841c499ecac038a41363f144aa8ed4d61e044cf4a8c9012a83160e96809",
+                    "platform": {
+                        "name": "macOS",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/QodeAssist/releases/download/v0.9.21/QodeAssist-v0.9.21-QtC19.0.2-macOS-universal.7z",
+                    "sha256": "90c3b841c499ecac038a41363f144aa8ed4d61e044cf4a8c9012a83160e96809",
+                    "platform": {
+                        "name": "macOS",
+                        "architecture": "arm64"
+                    }
+                }
+            ],
+            "metadata": {
+                "Id": "qodeassist",
+                "Name": "QodeAssist",
+                "Version": "0.9.21",
                 "CompatVersion": "19.0.2",
                 "Vendor": "Petr Mironychev",
                 "VendorId": "petrmironychev",
