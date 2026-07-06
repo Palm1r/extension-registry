@@ -1,0 +1,102 @@
+{
+    "$schema": "../../schema/extension.schema.json",
+    "info": {
+        "id": "stickyscroll",
+        "vendor_id": "petrmironychev",
+        "display_name": "Sticky Scroll",
+        "display_vendor": "Petr Mironychev",
+        "license": "open-source",
+        "tags": [
+            "Editor",
+            "Text Editor",
+            "Sticky Scroll",
+            "Navigation",
+            "Scrolling",
+            "Code Folding"
+        ]
+    },
+    "latest": "0.9.1",
+    "versions": {
+        "0.9.1": {
+            "sources": [
+                {
+                    "url": "https://github.com/Palm1r/qt-creator-sticky-scroll/releases/download/v0.9.1/StickyScroll-0.9.1-QtC20.0.0-Windows-x64.7z",
+                    "sha256": "6ff0d866bf47363814b0c818897a2a326f5264c886a00a92aa7490443fb7acd0",
+                    "platform": {
+                        "name": "Windows",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/qt-creator-sticky-scroll/releases/download/v0.9.1/StickyScroll-0.9.1-QtC20.0.0-Windows-arm64.7z",
+                    "sha256": "6938c851ab03f3c137a942029f907710bc778838d9011bb332fd0ac516ed4b7f",
+                    "platform": {
+                        "name": "Windows",
+                        "architecture": "arm64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/qt-creator-sticky-scroll/releases/download/v0.9.1/StickyScroll-0.9.1-QtC20.0.0-Linux-x64.7z",
+                    "sha256": "8ed63f96dfaf458ccf8ab3be6689d26b03c0b8d5341d1784b338f86bb3caf86e",
+                    "platform": {
+                        "name": "Linux",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/qt-creator-sticky-scroll/releases/download/v0.9.1/StickyScroll-0.9.1-QtC20.0.0-Linux-arm64.7z",
+                    "sha256": "0f3923e8a1284923f9b996fe6f467f97459af88592788bcc144fb988e3edbec3",
+                    "platform": {
+                        "name": "Linux",
+                        "architecture": "arm64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/qt-creator-sticky-scroll/releases/download/v0.9.1/StickyScroll-0.9.1-QtC20.0.0-macOS-universal.7z",
+                    "sha256": "423c1d5dac483a4e04675c99cf4df42d6224d20fdf0427877ccec32eca3129ff",
+                    "platform": {
+                        "name": "macOS",
+                        "architecture": "x86_64"
+                    }
+                },
+                {
+                    "url": "https://github.com/Palm1r/qt-creator-sticky-scroll/releases/download/v0.9.1/StickyScroll-0.9.1-QtC20.0.0-macOS-universal.7z",
+                    "sha256": "423c1d5dac483a4e04675c99cf4df42d6224d20fdf0427877ccec32eca3129ff",
+                    "platform": {
+                        "name": "macOS",
+                        "architecture": "arm64"
+                    }
+                }
+            ],
+            "metadata": {
+                "Id": "stickyscroll",
+                "Name": "Sticky Scroll",
+                "Version": "0.9.1",
+                "CompatVersion": "20.0.0",
+                "Vendor": "Petr Mironychev",
+                "VendorId": "petrmironychev",
+                "Copyright": "(C) Petr Mironychev, Copyright (C) The Qt Company Ltd. and other contributors.",
+                "License": "MIT",
+                "Category": "Text Editor",
+                "Description": "Pins the enclosing scope headers (function, class, block, key, or heading) to the top of the editor while you scroll, so the surrounding context stays visible. Click a pinned line to jump to it.",
+                "LongDescription": [
+                    "Keeps the code you are reading in context: the enclosing scope headers — function, class, block, key, or heading — stay pinned to the top of the editor as you scroll. Click a pinned line to jump straight to it.",
+                    "The pinned lines are derived from the document structure, chosen automatically per file type: code folding for C/C++, JavaScript/TypeScript, JSON, CMake, Python and any language whose highlighter folds; indentation for YAML; ATX heading levels for Markdown.",
+                    "Toggle the feature and set the maximum number of pinned lines on the Sticky Scroll page in the text editor settings."
+                ],
+                "Url": "https://github.com/Palm1r/qt-creator-sticky-scroll",
+                "DocumentationUrl": "https://github.com/Palm1r/qt-creator-sticky-scroll#readme",
+                "Dependencies": [
+                    {
+                        "Id": "core",
+                        "Version": "20.0.0"
+                    },
+                    {
+                        "Id": "texteditor",
+                        "Version": "20.0.0"
+                    }
+                ]
+            }
+        }
+    }
+}
